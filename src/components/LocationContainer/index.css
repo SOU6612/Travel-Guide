@@ -1,0 +1,27 @@
+.location-item {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  margin: 12px;
+}
+.location-card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+  color: #475569;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #64748b;
+}

@@ -1,0 +1,35 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #eef4f7;
+}
+.travel-heading {
+  font-family: 'Roboto';
+  color: #334155;
+  margin-bottom: 0px;
+}
+.horizontal-line {
+  width: 10vw;
+  height: 4px;
+  background-color: #52bbf0;
+  border: none;
+}
+.locations-container {
+  padding: 10px;
+  width: 90vw;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.locations-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
